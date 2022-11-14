@@ -1,0 +1,177 @@
+.form__container {
+    width: 100%;
+    height: 100vh;
+    background-color: #d5d5d5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1200;
+    position: fixed;
+    top:0
+}
+.header__container2 {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    padding: 0.9rem;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1150;
+    background-color: var(--secgreen);;
+}
+.header__icon2 {
+    color: white;
+    font-size: 1.4rem; 
+    cursor: pointer;
+}
+.form1__box {
+    width: 85%;
+    height: 65%;
+    margin-top: 6rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    position: relative;
+}
+.step0h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #006b52;
+    font-weight: 800;
+}
+.step1h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    color: #006b52;
+    font-weight: 800;
+    font-size: 2.15rem;
+}
+.form1__box h2 {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 500;
+}
+.form1__box h3 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    color: #d9d9d9
+}
+.form1__insideBox {
+    position: absolute;
+    bottom: 2rem;
+    width:90%;
+    height: 30%;
+    background-color: #006b52;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 1.2rem;
+    text-align: center;
+}
+
+.stepOne__container{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stepOne__button {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
+    color: white;
+    background-color: #c7066e;
+    padding: 0.2rem 6rem;
+    border-radius: 3rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.form1__arrow {
+    position: absolute;
+    right: 1rem;
+    font-size: 2.4rem;
+}
+.step1__container{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.step1__button {
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
+    color: white;
+    background-color: #c7066e;
+    padding: 0.2rem 3rem;
+    border-radius: 3rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.step1__prev {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    background-color: #c7066e;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.step1__arrow {
+    position: absolute;
+    right: 0.7rem;
+    font-size: 2rem;
+}
+.step1Fields {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    width: 75%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.field1 {
+    margin-bottom: 2rem;
+    padding: 1rem 1rem;
+    border: 3px solid #7ec050;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif; 
+    margin-top: 4rem;
+}
+.field1:focus {
+    outline: none;
+}
+.field2 {
+    padding: 1rem 1rem;
+    border: 3px solid #7ec050;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif; 
+}
+.field2:focus {
+    outline: none;
+}

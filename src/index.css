@@ -1,13 +1,62 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --secgreen: #006b52;
+  --secgreen8: rgb(2, 138, 106);
+  --secgreen6: rgb(0, 107, 82, 0.6);
+  --secgreen4: rgb(0, 107, 82, 0.4);
+  --secblue: #002E55;
+  --secblue8: rgb(0,46,85, 0.8);
+  --secblue6: rgb(0,46,85, 0.6);
+  --secblue4: rgb(0,46,85, 0.4);
+  --secpurple: #4c0f83;
+  --secpurple8: rgb(76,15,131, 0.8);
+  --secpurple6: rgb(76,15,131, 0.6);
+  --secpurple4: rgb(76,15,131, 0.4);
+  --secgreenl: #328874;
+  --secgreenl2: #66a697;
+  --secgreenlc: #883246;
 }
+
+body {
+  font-family: 'Poppins', sans-serif; 
+}
+
+/* MEDIA QUARIES (LARGE DEVICES) */
+@media screen and (max-width: 5000px) { 
+  .container {
+    width: 40%;
+  }
+  .container2 {
+    width: 40%;
+}
+}
+/* MEDIA QUARIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 60%;
+  }
+  .container2 {
+    width: 60%;
+}
+}
+/* MEDIA QUARIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) { 
+  .container {
+    width: 90%;
+  }
+  .container2 {
+    width: 100%;
+}
+}
+

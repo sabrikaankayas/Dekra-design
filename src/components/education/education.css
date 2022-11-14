@@ -1,0 +1,137 @@
+.education__container {
+    width: 100%;
+    background-color: var(--secgreenl);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1100;
+    overflow-y: auto;
+    position: relative;
+}
+.education__transparent {
+    width: 100%;
+    height: 100vh;
+}
+.education__textDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    margin-bottom: 4.5rem;
+    width: 100%;
+    background-color: #4abca2;
+    color: #004031;
+}
+.education__textDiv h1 {
+    font-size: 2.7rem;
+    line-height: 1.2;
+    font-weight: 800;
+    text-shadow: -1px 0 #00723d
+    , 0 1px #00723d
+    , 1px 0 #00723d
+    , 0 -1px #00723d
+    ;
+}
+
+.education__textDiv h2 {
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 400;
+    color: white
+}
+.education__textDiv h2:nth-child(1) {
+    margin-right: 5rem;
+}
+.education__textDiv h2:nth-child(3) {
+    margin-left: 5rem;
+}
+.education__textDiv {
+    font-weight: 800;
+}
+.education__priceBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secgreenlc);
+    margin-bottom: 20px;
+    padding: 4rem 0;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+.education__priceBox h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.education__price {
+    background-color: #ffc107;
+    border-radius: 20px;
+    padding: 8px 10px;
+    margin-bottom: 0.5rem;
+}
+.education__price h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.education__priceBox p {
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+.education__textDiv2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.education__textDiv2 h1 {
+    font-size: 2.7rem;
+    color: white;
+    text-shadow: -1px 0 #00723d
+    , 0 1px #00723d
+    , 1px 0 #00723d
+    , 0 -1px #00723d
+    ;
+    line-height: 1.2;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+.education__textDiv2 h2 {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 400;
+    color: white;
+    margin-right: 5rem;
+}
+.education__dekraTruck img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.education__textDiv3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+.education__button {
+    background-color: var(--secblue8);
+    margin-top: 0.9rem;
+    padding: 1.3rem 3.6rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: 3rem;
+}
+.education__button:hover {
+    background-color: var(--secblue);
+}
+

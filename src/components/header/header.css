@@ -1,0 +1,42 @@
+.header__container {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    padding: 0.9rem;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1150;
+}
+.header__color0 {
+    background-color: var(--secgreen);
+    transition: all 0.7s;
+}
+.header__color1 {
+    background-color: #005541;
+    transition: all 0.7s;
+}
+.header__color2 {
+    background-color: #004031;
+    transition: all 0.7s;
+}
+.header__color3 {
+    background-color: #002a20;
+    transition: all 0.7s;
+}
+.header__color4 {
+    background-color: #002018;
+    transition: all 0.7s;
+}
+.header__color5 {
+    background-color: rgb(0,21,16,.9);
+    transition: all 0.7s;
+}
+.header__logo {
+    width: 10rem
+}
+.header__icon {
+    color: white;
+    font-size: 1.7rem; 
+    cursor: pointer;
+}
